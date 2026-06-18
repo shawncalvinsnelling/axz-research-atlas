@@ -1,0 +1,71 @@
+\documentclass{amsart}
+\usepackage{amsmath,amssymb,amsthm,hyperref}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+
+\title[AXZ Research Atlas]{AXZ Research Atlas: Finite Verification, Modular Sieve Gates, and Truth-Labeled Candidate Lemmas}
+\author{Shawn Calvin Snelling}
+\address{Axezent AI, Independent Research}
+\email{shawncsnelling@gmail.com}
+\subjclass[2020]{Primary 11Y55, 11D45; Secondary 05B15, 68Q60}
+\keywords{finite verification, magic squares, quadratic residues, reproducible computation, proof audit}
+
+\begin{document}
+\begin{abstract}
+This document introduces the AXZ Research Atlas, a finite verification and proof-audit framework for organizing computational mathematical artifacts. The atlas separates proved finite statements, candidate lemmas, and blocked global claims. Its current strongest mathematical lane is a modular and graph-theoretic reduction of the third-order magic square of squares search using Lucas parameters, the \(24k+1\) primitive compression gate, CRT survivor lattices, and a centered square-pair difference graph.
+\end{abstract}
+\maketitle
+
+\section{Truth-label policy}
+Finite receipts certify finite claims. They do not imply infinite theorems without a bridge theorem.
+
+\section{Lucas form and additive diamonds}
+Every third-order magic square has a Lucas parameterization
+\[
+\begin{pmatrix}
+e+a & e-a-b & e+b\\
+e-a+b & e & e+a-b\\
+e-b & e+a+b & e-a
+\end{pmatrix}.
+\]
+For \(e=z^2\), define
+\[
+D(e)=\{d>0:e-d\in\Box,\ e+d\in\Box\}.
+\]
+
+\begin{lemma}[Closed additive diamond reduction]
+A third-order magic square of squares in Lucas form requires
+\[
+\{a,b,a+b,|a-b|\}\subset D(e).
+\]
+Conversely, this inclusion makes all eight cells surrounding \(e\) square-pair values around the center. Positivity, distinctness, and primitivity remain separate gates.
+\end{lemma}
+
+\begin{proof}
+Opposite cells across the center sum to \(2e\):
+\[
+(e+a)+(e-a)=2e,\quad (e+b)+(e-b)=2e,
+\]
+\[
+(e+a+b)+(e-a-b)=2e,\quad (e+a-b)+(e-a+b)=2e.
+\]
+Thus the four differences \(a,b,a+b,|a-b|\) must each lie in \(D(e)\). The converse follows by substituting these four square-pair conditions back into the Lucas matrix. The remaining integer conditions are independent post-filters.
+\end{proof}
+
+\begin{lemma}[Forced \(24\)-divisibility]
+If \(d\in D(z^2)\), then \(24\mid d\). If \(2^s\Vert z\), then \(24\cdot 4^s\mid d\).
+\end{lemma}
+
+\begin{proof}
+Write \(z^2-d=x^2\) and \(z^2+d=y^2\). Modulo \(3\), the only square residues are \(0,1\), and the simultaneous conditions force \(d\equiv0\pmod3\). If \(z\) is odd, then modulo \(8\) the simultaneous conditions force \(d\equiv0\pmod8\). Hence \(24\mid d\). If \(z\) is even, then \(x,y\) are even; dividing \(x,y,z\) by \(2\) divides \(d\) by \(4\). Repeating until the reduced center is odd gives the factor \(4^s\).
+\end{proof}
+
+\section{Status}
+The atlas records finite results and candidate lemmas only. It does not claim a global solution to the \(3\times3\) magic square of squares problem or to the Riemann Hypothesis.
+
+\bibliographystyle{amsplain}
+\bibliography{references}
+\end{document}

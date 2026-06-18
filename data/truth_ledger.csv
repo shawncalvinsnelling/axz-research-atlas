@@ -1,0 +1,20 @@
+id,title,status,statement,evidence
+AXZ-CSF-001,Dead odd-square Ulam lane,PROVED,The lane C0(r)=(2r+1)^2 is composite for every r>=1 and therefore contains no primes after the trivial center.,"Algebraic square factorization; finite scan receipts are illustrative, not required for proof."
+AXZ-MSQ-003,Primitive 24k+1 compression gate,PROVED / LITERATURE-SUPPORTED,Primitive 3×3 magic-square-of-squares candidates satisfy cell congruence L_i ≡ 1 (mod 24); Lucas steps a and b must be multiples of 24.,Quadratic residues mod 3 and mod 8; CRT compression; literature alignment with Pierrat-Thiriet-Zimmermann-style constraints.
+AXZ-MSQ-006,Modulo-240 survivor lattice,FINITE_PROVED,Modulo 240 has 116 code-like nontrivial QR survivors; strict primitive compression leaves 50 survivor structures; center classes 25 and 145 account for 38/50.,Deterministic modular sweep and CSV/JSON receipts.
+AXZ-MSQ-006-CRT,CRT product counts,FINITE_PROVED,"Strict primitive mod 240 survivors combined with raw mod 7 and mod 11 QR survivors give 50×16×26=20,800 raw CRT product states; tightened nontrivial convention gives 12,000.",CRT counting convention recorded in ledger.
+AXZ-MSQ-008-CUBE,Cubic residue reductions,FINITE_PROVED,"For cubic-residue Lucas gates, mod 7 and mod 9 each have exactly 4 nontrivial survivors, giving reductions 98.8338% and 99.4513%.",Deterministic finite ring sweeps.
+AXZ-MSQ-010,Closed additive-diamond reduction,PROVED REDUCTION,"For center e=z^2, a 3×3 magic square of squares requires {a,b,a+b,|a-b|}⊂D(e), where D(e)={d>0:e−d and e+d are squares}.",Opposite-pair decomposition in Lucas parameterization.
+AXZ-MSQ-013,"Finite graph sweep through z≤1,000,000",FINITE_NEGATIVE_RESULT,"A finite sweep found 245,344 centers with valid D(e), 2,611,262 pair tests, zero 3-of-4 near-misses, zero additive diamonds, and zero valid square hits under the implemented gates.",C++/Python sweep summary and receipts.
+AXZ-MSQ-014.1,Forced 24-divisibility lemma for centered square-pair differences,PROVED,"If d∈D(z^2), then 24∣d. More sharply, if 2^s exactly divides z, then 24·4^s divides d.","Modulo 3, modulo 8, and 2-adic descent."
+AXZ-SIEVE-004,Lane-normalized singular-series obstruction certificate,CANDIDATE,Prime-geometry lane claims should be ranked by local obstruction products rather than raw finite densities.,Compute ν_L(p) and singular-series truncation with tail/error labels.
+AXZ-MSQ-014.2,24-quotient diamond obstruction,CANDIDATE,Normalize D(z^2) by the forced 24·4^{v2(z)} divisor and study near-miss defects in the quotient graph Q(z).,Replace raw d by normalized d/(24·4^v2(z)); classify full diamonds and near misses.
+AXZ-RH-FINITE-CERT,Finite-height RH certificate scaffold,CANDIDATE / STANDARD-ADJACENT,"Finite-height zeta zero claims require Turing-count equality plus critical-line isolation, not resonance language.","Turing method, zero isolation, interval arithmetic receipts."
+AXZ-RECEIPT-NONESCALATION,Finite receipt non-escalation principle,PROVED-LOGICAL / REPO-POLICY,A finite hash receipt certifies finite data integrity only; infinite theorem claims require a bridge theorem.,Formalize as a proof-audit policy rule.
+AXZ-ROOT-001,Omniverse Sieve / universal convergence,BLOCKED,,Finite receipts do not imply infinite or universal laws.
+AXZ-RH-GLOBAL,Global Riemann Hypothesis solved,BLOCKED,,RH remains globally unproved; finite certificate lanes are local only.
+AXZ-MAGIC-FINAL,3×3 magic square of squares globally solved,BLOCKED,,Current status is finite obstruction and search infrastructure; no global existence/nonexistence proof.
+AXZ-CRYP-ABSOLUTE,Unbreakable cryptography from prime geometry,BLOCKED,,No cryptographic security theorem or threat model.
+AXZ-AUTOMATA-1.18,Universal glider constant,BLOCKED,,"Simulation claims require formal initial conditions, code, statistics, and independent reproduction."
+AXZ-DOD-20.20,Permanent dodecagonal 20.20% prime plateau,BLOCKED,,A later finite validation under f(r)≤1e9 did not support the 20.20% claim.
+AXZ-QUBIT-FLUID,Quantum/fluid/physical universal constants,BLOCKED,,"No physical model, theorem, or validated experiment supplied."

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "AXZ Research Atlas"
+message: "If you use this repository, cite it as below."
+type: software
+authors:
+  - family-names: Snelling
+    given-names: Shawn Calvin
+    affiliation: Axezent AI
+repository-code: "https://github.com/shawncalvinsnelling/axz-research-atlas"
+url: "https://shawncalvinsnelling.github.io/axz-research-atlas/"
+date-released: "2026-06-18"
+license: MIT
+keywords:
+  - finite verification
+  - proof audit
+  - reproducible computation
+  - magic squares
+  - quadratic residues
+  - candidate lemmas

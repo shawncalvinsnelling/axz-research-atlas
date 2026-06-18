@@ -1,0 +1,27 @@
+{
+  "artifact_id": "AXZ-RESEARCH-ATLAS-001",
+  "created_utc": "2026-06-18T10:22:14+00:00",
+  "directories": [
+    ".github",
+    ".github/workflows",
+    "data",
+    "docs",
+    "docs/assets",
+    "docs/pages",
+    "examples",
+    "math",
+    "papers",
+    "papers/appendices",
+    "papers/manuscript",
+    "receipts",
+    "repositories",
+    "src",
+    "src/cpp",
+    "src/python"
+  ],
+  "file_count": 42,
+  "receipt_sha256": "8dce9acf9e1dd027012732c38a447c702468fb1cad7cc16521a697630c0da425",
+  "repo_name": "axz-research-atlas",
+  "site_url_expected": "https://shawncalvinsnelling.github.io/axz-research-atlas/",
+  "truth_posture": "FINITE_VERIFICATION_ATLAS / GLOBAL_CLAIMS_BLOCKED_UNLESS_BRIDGED"
+}

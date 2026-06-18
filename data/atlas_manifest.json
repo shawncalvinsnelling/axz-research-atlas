@@ -1,0 +1,15 @@
+{
+  "core_rule": "No claim without a receipt; no finite receipt promoted to infinity without a bridge theorem.",
+  "counts": {
+    "blocked_claims": 7,
+    "candidate_lemmas": 4,
+    "proved_or_finite_results": 8,
+    "public_repositories_indexed": 28
+  },
+  "created_utc": "2026-06-18T10:22:14+00:00",
+  "owner": "Shawn Calvin Snelling / Axezent AI",
+  "project": "AXZ Research Atlas",
+  "repository": "axz-research-atlas",
+  "site_url_expected": "https://shawncalvinsnelling.github.io/axz-research-atlas/",
+  "truth_posture": "FINITE_VERIFICATION_ATLAS / GLOBAL_CLAIMS_BLOCKED_UNLESS_BRIDGED"
+}
