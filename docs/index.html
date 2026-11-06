@@ -2,75 +2,120 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>AXZ Research Atlas — AXZ Research Atlas</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="AXZ Research Atlas: finite verification, proof-audit ledgers, and reproducible research artifacts.">
+  <meta name="description" content="AXZ Research Atlas: a living public index of Shawn Calvin Snelling's mathematical proof artifacts, AI verification software, scientific research tools and creative projects.">
+  <meta name="theme-color" content="#081322">
+  <title>AXZ Research Atlas | Mathematics, Verified Software & Scientific Research</title>
   <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/atlas.js" defer></script>
 </head>
-<body>
+<body class="atlas-home">
+<a class="skip-link" href="#main">Skip to content</a>
 <header>
   <div class="hero">
-    <div class="badge">FINITE VERIFICATION ATLAS</div>
-    <div class="badge">GLOBAL CLAIMS BLOCKED UNLESS BRIDGED</div>
-    <h1>AXZ Research Atlas</h1>
-    <p>Shawn Calvin Snelling / Axezent AI — proof-audit ledgers, deterministic receipts, and truth-labeled candidate lemmas.</p>
-
-<nav>
-  <a href="https://shawncalvinsnelling.github.io/axz-research-atlas/">Home</a>
-  <a href="pages/truth-ledger.html">Truth Ledger</a>
-  <a href="pages/proved.html">Proved</a>
-  <a href="pages/candidates.html">Candidates</a>
-  <a href="pages/blocked.html">Blocked</a>
-  <a href="pages/repositories.html">Repositories</a>
-  <a href="pages/magic-square.html">Magic Square</a>
-  <a href="pages/prime-geometry.html">Prime Geometry</a>
-  <a href="pages/safety.html">AI Safety Summary</a>
-</nav>
-
+    <div class="atlas-topbar">
+      <a class="atlas-brand" href="index.html"><span class="brand-mark">AXZ</span><span>Research Atlas</span></a>
+      <nav class="atlas-navigation" aria-label="Primary navigation">
+        <a href="#research">Research</a><a href="#spotlight">Featured projects</a><a href="#catalog">All public repositories</a>
+        <a href="pages/truth-ledger.html">Truth ledger</a><a href="https://github.com/shawncalvinsnelling/shawncalvinsnelling/blob/main/BIOGRAPHY.md">Biography</a>
+      </nav>
+    </div>
+    <div class="atlas-hero">
+      <div>
+        <p class="eyebrow">Shawn Calvin Snelling · AXEZENT / AXZENTAI</p>
+        <h1>Explore the work.<br><span class="hero-emphasis">Inspect the evidence.</span></h1>
+        <p class="lead">A public research portfolio spanning exact mathematics, AI and software verification, scientific computing, engineering studies, and original creative technology. Follow each topic to its repository, documentation and reproducible artifacts.</p>
+        <div class="cta-row">
+          <a class="cta primary" href="#catalog">Browse all public projects</a>
+          <a class="cta secondary" href="#spotlight">Explore selected work</a>
+          <a class="cta secondary" href="pages/proved.html">Review mathematical results</a>
+        </div>
+      </div>
+      <aside class="vision-panel" aria-label="Portfolio overview">
+        <div class="mini-title">Living public directory</div>
+        <div class="number">43<span style="font-size:1.3rem;color:#81cfbd">+</span></div>
+        <p>Public repositories at the last checked snapshot. The catalog below checks GitHub for changes whenever this page opens.</p>
+        <div class="vision-rule"></div>
+        <div class="mini-title">Core discipline</div>
+        <p style="font-weight:750;color:#e4f3ff">A claim, its assumptions, the executable or mathematical evidence, and an explicit scope.</p>
+        <div class="vision-rule"></div>
+        <a href="pages/truth-ledger.html">Read the truth-label policy</a>
+      </aside>
+    </div>
   </div>
 </header>
-<main>
+<main id="main">
+  <section class="atlas-section" id="research">
+    <p class="section-kicker">Research disciplines</p>
+    <h2>One portfolio, distinct lines of inquiry</h2>
+    <p class="section-intro">The Atlas began with finite proof-audit work. It now connects published repository artifacts across several technical disciplines. These areas are grouped for navigation; the existence of a repository is not a certification of a theory, experiment or product.</p>
+    <div class="pillar-grid">
+      <article class="pillar"><span class="serial">01 / MATHEMATICS</span><h3>Exact results &amp; formal methods</h3><p>Number theory, combinatorics, Higher Lie-related mathematics, OPAC root-system problems, modular reductions, exact rational checks and proof receipts.</p></article>
+      <article class="pillar"><span class="serial">02 / VERIFICATION</span><h3>Trustworthy AI &amp; software</h3><p>Trace-replay kernels, receipt-bound AI output review, software test attestations, reduction checking, audit trails and robust optimization.</p></article>
+      <article class="pillar"><span class="serial">03 / SCIENTIFIC COMPUTING</span><h3>Physical &amp; experimental models</h3><p>Photonic structures, quantum-facing models, particle-event reconstruction, biomedical data timing and reproducible computational studies.</p></article>
+      <article class="pillar"><span class="serial">04 / SECURITY</span><h3>Secure systems research</h3><p>Computer and software integrity, policy-governed AI actions, evidence chaining and cryptographic migration planning across the larger research program.</p></article>
+      <article class="pillar"><span class="serial">05 / ENGINEERING</span><h3>Inventions &amp; applied design</h3><p>Geometric structures, measurement systems, physical product design, systems integration and design tradeoffs represented in research-stage artifacts.</p></article>
+      <article class="pillar"><span class="serial">06 / CREATIVE TECHNOLOGY</span><h3>Music, sound &amp; digital media</h3><p>Original hip-hop and instrumental production, spatial audio experimentation, frequency-oriented media and music software.</p></article>
+    </div>
+  </section>
 
-<section class="grid">
-  <div class="card">
-    <h3>Core rule</h3>
-    <p>No claim without a receipt. No finite receipt promoted to infinity without a bridge theorem.</p>
-  </div>
-  <div class="card">
-    <h3>Research posture</h3>
-    <p><span class="status-proved">Finite verified artifacts</span>, <span class="status-candidate">candidate lemmas</span>, and <span class="status-blocked">blocked global claims</span> are separated.</p>
-  </div>
-  <div class="card">
-    <h3>Repository</h3>
-    <p><a href="https://github.com/shawncalvinsnelling/axz-research-atlas">Open the GitHub repository</a></p>
-  </div>
-</section>
+  <section class="atlas-section" id="spotlight">
+    <p class="section-kicker">Verified public destinations</p>
+    <h2>Selected projects and research artifacts</h2>
+    <p class="section-intro">Each link opens a public GitHub repository. Claims of proof, test completion or device performance should be evaluated under the project's own documented assumptions and evidence.</p>
+    <div class="spotlight-grid">
+      <article class="spotlight-card"><span class="type">Exact mathematics</span><h3>OPAC-016 · Type-C exact κ</h3><p>Formal and symbolic work on geometric dilation bounds in finite Type-C root systems, with an explicit independent-replication boundary.</p><a href="https://github.com/shawncalvinsnelling/axezent-opac016-type-c-exact-kappa">Explore the mathematics</a></article>
+      <article class="spotlight-card"><span class="type">Root systems</span><h3>OPAC-018 · Green–Schur bridge</h3><p>Determinant identities, Green–Schur analysis, certificate dependencies and remaining assembly obligations.</p><a href="https://github.com/shawncalvinsnelling/axezent-opac018-green-schur-bridge">Explore proof artifacts</a></article>
+      <article class="spotlight-card"><span class="type">Analytic number theory</span><h3>Detector-gated Dirichlet polynomials</h3><p>Finite-grid witnesses, large-value estimates, reproducibility materials and a clearly scoped mathematical manuscript.</p><a href="https://github.com/shawncalvinsnelling/AXEZENT-Detector-Gated-Dirichlet-Polynomials">Explore the manuscript</a></article>
+      <article class="spotlight-card"><span class="type">Formal verification</span><h3>CSL · Sparse-state trace replay</h3><p>Exact finite replay against declared step relations, with Lean source, reference runtimes and verification receipts.</p><a href="https://github.com/shawncalvinsnelling/axz-csl-kernel">Inspect the kernel</a></article>
+      <article class="spotlight-card"><span class="type">AI governance</span><h3>CTR · Cognitive Trace Replay</h3><p>Deterministic evaluation of AI outputs against finite evidence, policy packs and file-diff boundaries.</p><a href="https://github.com/shawncalvinsnelling/axezent-ai-ctr-kernel">Inspect the checker</a></article>
+      <article class="spotlight-card"><span class="type">Software integrity</span><h3>ReceiptCI &amp; ReceiptRail</h3><p>Reproducible software test certificates and agent-action evidence records with cryptographic hashes.</p><a href="https://github.com/shawncalvinsnelling/AXZ-ReceiptCI">Explore ReceiptCI</a> · <a href="https://github.com/shawncalvinsnelling/ReceiptRail-AI">ReceiptRail</a></article>
+      <article class="spotlight-card"><span class="type">Combinatorics</span><h3>Graph Ramsey &amp; finite certificates</h3><p>Finite graph-coloring verification for R(3,3)=6, alongside Schur and van der Waerden research artifacts.</p><a href="https://github.com/shawncalvinsnelling/AXEZENT-AI-Graph-Ramsey-R33">Examine the certificate</a></article>
+      <article class="spotlight-card"><span class="type">Optimization</span><h3>Robust shortest-path verifier</h3><p>Checkable route certificates and counterexamples for defined uncertain-cost models using exact rational arithmetic.</p><a href="https://github.com/shawncalvinsnelling/AXEZENT-Robust-Shortest-Path-Verifier">Explore routing proofs</a></article>
+      <article class="spotlight-card"><span class="type">Scientific computing</span><h3>Photonic intelligence research</h3><p>Research-stage structural-coherence and transformer-telemetry software, with photonic engineering models.</p><a href="https://github.com/shawncalvinsnelling/shawncalvinsnelling-AXZ-Photonic-Intelligence">Explore the software</a></article>
+      <article class="spotlight-card"><span class="type">Scientific computing</span><h3>Rare-event reduction engine</h3><p>Particle-event schema validation, candidate reconstruction, background-risk classification and report receipts.</p><a href="https://github.com/shawncalvinsnelling/shawncalvinsnelling-SCS-Rare-Event-Reduction-Engine">Explore the engine</a></article>
+      <article class="spotlight-card"><span class="type">Biomedical research</span><h3>BioGate research timing</h3><p>A research-stage biomarker timing and experiment-planning software concept, not a clinical decision system.</p><a href="https://github.com/shawncalvinsnelling/shawncalvinsnelling-AXZ-BioGate-OHSU-Research-Timing-Engine">Explore the project</a></article>
+      <article class="spotlight-card"><span class="type">Original music</span><h3>AXEZENT Beats &amp; Instrumentals</h3><p>Creative development of original hip-hop, rap, club and melodic instrumentals with a dedicated storefront project.</p><a href="https://github.com/shawncalvinsnelling/AXEZENT-Beats-for-Sale">Explore the music project</a></article>
+    </div>
+  </section>
 
-<h2>What this atlas explains</h2>
-<p>
-The AXZ Research Atlas is a public website and repository index for the Axezent AI verification ecosystem.
-It organizes finite mathematical scans, proof-audit kernels, receipt systems, candidate lemmas, and blocked claims into a professor-readable format.
-</p>
+  <section class="atlas-section" id="catalog">
+    <p class="section-kicker">Public GitHub · living catalog</p>
+    <h2>Explore every public repository</h2>
+    <p class="section-intro">Search by name or research topic, or filter the directory by discipline. The site retrieves public GitHub repositories when loaded; a stored snapshot remains available if GitHub rate limits or network restrictions prevent refresh. Private repositories are intentionally excluded.</p>
+    <div class="catalog-toolbar">
+      <div class="catalog-search"><label for="repo-search">Search repositories</label><input id="repo-search" type="search" placeholder="Try OPAC, receipts, photonics, music…" autocomplete="off"></div>
+      <div id="category-filters" class="category-filters" role="group" aria-label="Filter repository categories"></div>
+    </div>
+    <div class="catalog-meta"><span class="count" id="repo-count" aria-live="polite">Loading public snapshot…</span><span class="note" id="source-note" aria-live="polite">Public repositories only; project descriptions are not independent scientific endorsements.</span></div>
+    <div id="repo-results" class="repository-grid" aria-label="Public repository links"></div>
+    <p id="repo-empty" class="catalog-empty" hidden>No matching public repositories. Try a different search.</p>
+    <noscript><p>The searchable directory requires JavaScript. View <a href="https://github.com/shawncalvinsnelling?tab=repositories">the public GitHub repositories</a> or the <a href="https://github.com/shawncalvinsnelling/axz-research-atlas/blob/main/REPOSITORY_INDEX.md">repository index</a>.</p></noscript>
+  </section>
 
-<h2>Current strongest lane</h2>
-<p>
-The most mature current mathematical lane is the magic-square-of-squares modular and graph-theoretic reduction:
-Lucas form, 24k+1 compression, modulo-240 and CRT survivor lattices, centered square-pair difference graphs, and additive-diamond sweeps.
-</p>
+  <section class="atlas-section" id="evidence">
+    <p class="section-kicker">Scientific responsibility</p>
+    <h2>What a status label means</h2>
+    <div class="principle"><strong>No claim without its supporting evidence.</strong><p>PROVED marks a supplied mathematical argument within its stated scope. FINITE_PROVED means a bounded computation or certificate. CANDIDATE marks a research target. BLOCKED identifies an unsupported or overextended conclusion. A source repository is a starting point for review, not automatically an endorsement.</p></div>
+    <p class="section-intro">The original Atlas pages remain available for academic readers who need the exact mathematics, proof boundaries, the finite magic-square program and the evidence ledger.</p>
+    <div class="atlas-links">
+      <a href="pages/truth-ledger.html">Truth ledger</a>
+      <a href="pages/proved.html">Proved &amp; finite results</a>
+      <a href="pages/candidates.html">Candidate lemmas</a>
+      <a href="pages/blocked.html">Blocked claims</a>
+      <a href="pages/magic-square.html">Magic-square research</a>
+      <a href="pages/prime-geometry.html">Prime geometry</a>
+      <a href="pages/safety.html">AI safety</a>
+      <a href="pages/repositories.html">Full directory view</a>
+    </div>
+  </section>
 
-<h2>Safe academic boundary</h2>
-<pre>PROVED: algebraic reductions and finite verifier results.
-CANDIDATE: concrete unsolved-math-adjacent lemmas.
-BLOCKED: RH solved, global magic-square solved, unbreakable cryptography, universal convergence.</pre>
-
-<h2>How to cite or review</h2>
-<p>
-Use the repository README, Truth Ledger, and Candidate Lemmas pages first. The site is designed so a reviewer can immediately see what is proved, what is finite, what is candidate, and what is blocked.
-</p>
-
+  <section class="atlas-section" id="about">
+    <p class="section-kicker">The person behind the work</p>
+    <h2>Shawn Calvin Snelling · AXEZENT</h2>
+    <p class="section-intro">The research program brings together original mathematical investigations, software and AI architecture, cybersecurity and computing, engineering concepts, scientific proposals, and music. The complete intellectual biography explains their development and the connections among them; this Atlas is the public navigation and evidence layer.</p>
+    <div class="cta-row"><a class="cta primary" href="https://github.com/shawncalvinsnelling/shawncalvinsnelling/blob/main/BIOGRAPHY.md">Read the complete biography</a><a class="cta secondary" href="https://github.com/shawncalvinsnelling">Visit GitHub profile</a></div>
+  </section>
 </main>
-<footer>
-  AXZ Research Atlas. Public mathematical and computational artifacts with explicit truth labels.
-</footer>
-</body>
-</html>
+<footer><div class="atlas-footer"><p>© AXZ Research Atlas · Shawn Calvin Snelling · Public research and reproducible artifacts.</p><div><a href="https://github.com/shawncalvinsnelling/axz-research-atlas">Source</a><a href="mailto:axezentai@gmail.com">Collaboration</a></div></div></footer>
+</body></html>
