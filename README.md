@@ -8,6 +8,23 @@ AXZ Research Atlas is the public index for the Axezent AI verification ecosystem
 
 > **No claim without a receipt. No finite receipt promoted to infinity without a bridge theorem.**
 
+## Updated public website and living repository directory (November 2026)
+
+The [AXZ Research Atlas website](https://shawncalvinsnelling.github.io/axz-research-atlas/) now connects the original finite-verification material with publicly available work in mathematics, AI and software verification, scientific computing, engineering, and music.
+
+- [Complete searchable public repository directory](https://shawncalvinsnelling.github.io/axz-research-atlas/#catalog)
+- [Dedicated all-repositories page](https://shawncalvinsnelling.github.io/axz-research-atlas/pages/repositories.html)
+- [Dated 43-project public Markdown index](REPOSITORY_INDEX.md)
+- [GitHub profile and complete intellectual biography](https://github.com/shawncalvinsnelling/shawncalvinsnelling/blob/main/BIOGRAPHY.md)
+
+**How updates work:** The site queries GitHub's **public** repository API when a visitor opens the page. Newly public repositories, renamed repository metadata, and recent public pushes can appear automatically, with a checked-in public snapshot used when GitHub is unavailable. This does **not** publish private repositories, independently verify new scientific claims, or automatically amend the manual proof/truth ledgers.
+
+**Privacy:** At the November 2026 audit, 43 repositories were public. Other accessible repositories were private and excluded from public indexing.
+
+**Historical integrity:** The original magic-square, prime geometry, finite certificates, truth-ledger pages, and archived proof materials remain part of the Atlas.
+
+---
+
 ## What this repository is
 
 This repository is a professional, public-facing atlas for:
@@ -41,9 +58,9 @@ The ecosystem includes repositories such as:
 
 See [`REPOSITORY_INDEX.md`](REPOSITORY_INDEX.md).
 
-## Current strongest mathematical lane
+## Original magic-square mathematical program
 
-The current strongest technical lane is the magic-square-of-squares graph reduction:
+One important original technical lane is the magic-square-of-squares graph reduction:
 
 1. Lucas-form order-3 magic squares.
 2. Primitive `24k+1` compression.
