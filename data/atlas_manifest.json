@@ -4,12 +4,16 @@
     "blocked_claims": 7,
     "candidate_lemmas": 4,
     "proved_or_finite_results": 8,
-    "public_repositories_indexed": 28
+    "public_repositories_indexed": 43
   },
   "created_utc": "2026-06-18T10:22:14+00:00",
   "owner": "Shawn Calvin Snelling / Axezent AI",
   "project": "AXZ Research Atlas",
   "repository": "axz-research-atlas",
   "site_url_expected": "https://shawncalvinsnelling.github.io/axz-research-atlas/",
-  "truth_posture": "FINITE_VERIFICATION_ATLAS / GLOBAL_CLAIMS_BLOCKED_UNLESS_BRIDGED"
+  "truth_posture": "FINITE_VERIFICATION_ATLAS / GLOBAL_CLAIMS_BLOCKED_UNLESS_BRIDGED",
+  "public_catalog_snapshot_utc": "2026-11-06",
+  "public_catalog_scope": "public_repositories_only",
+  "site_live_public_catalog": true,
+  "site_live_update_description": "Public GitHub repository metadata is requested on each page load, falling back to the dated public snapshot. Proof/status ledgers are not dynamically reclassified."
 }
